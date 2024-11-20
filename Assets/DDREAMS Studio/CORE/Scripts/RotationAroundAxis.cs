@@ -3,7 +3,7 @@ using UnityEngine;
 namespace DDREAMS.CORE
 {
     [RequireComponent(typeof(GameObject))]
-    public class RotateAroundAxis : MonoBehaviour
+    public class RotationAroundAxis : MonoBehaviour
     {
         [SerializeField]
         [Tooltip("Axis to rotate around. Each value represents the number of degrees per second. Default: 30 degrees per second on the y-axis.")]
